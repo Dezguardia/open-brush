@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8859376472434236843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6566306250649059530}
+  - component: {fileID: 1452159366431975813}
+  - component: {fileID: 2254960054986235802}
+  - component: {fileID: 1481419473900798636}
+  - component: {fileID: 6562645888737951821}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6566306250649059530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859376472434236843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4026966, y: 2.5894082, z: -1.9143369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1452159366431975813
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859376472434236843}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2254960054986235802
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859376472434236843}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1481419473900798636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859376472434236843}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6562645888737951821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859376472434236843}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b736566a5f84540958c54b4cd8ffae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: C:\Users\dvarre\Documents\GitHub\datalogging_VR\Assets\Scripts\Data
+  fileName: yeux
+  timeBeforeLog: 1
+  leftPrimary2DAxis: 1
+  leftGrip: 0
+  leftGripButton: 0
+  leftMenuButton: 0
+  leftPrimaryButton: 1
+  leftPrimaryTouch: 1
+  leftSecondaryButton: 0
+  leftSecondaryTouch: 0
+  leftTrigger: 0
+  leftTriggerButton: 0
+  leftPrimary2DAxisClick: 0
+  leftPrimary2DAxisTouch: 0
+  leftIsTracked: 0
+  leftTrackingState: 0
+  leftDevicePosition: 1
+  leftDeviceRotation: 1
+  leftDeviceVelocity: 1
+  leftDeviceAngularVelocity: 1
+  rightPrimary2DAxis: 0
+  rightGrip: 0
+  rightGripButton: 0
+  rightMenuButton: 0
+  rightPrimaryButton: 0
+  rightPrimaryTouch: 0
+  rightSecondaryButton: 0
+  rightSecondaryTouch: 0
+  rightTrigger: 0
+  rightTriggerButton: 0
+  rightPrimary2DAxisClick: 0
+  rightPrimary2DAxisTouch: 0
+  rightIsTracked: 0
+  rightTrackingState: 0
+  rightDevicePosition: 0
+  rightDeviceRotation: 0
+  rightDeviceVelocity: 0
+  rightDeviceAngularVelocity: 0
+  isUserPresence: 0
+  isHeadSetTracked: 0
+  isHeadSetTrackingState: 0
+  isHeadSetDevicePosition: 1
+  isHeadSetDeviceRotation: 1
+  isHeadSetDeviceVelocity: 1
+  isHeadSetDeviceAngularVelocity: 0
+  isHeadSetDeviceAcceleration: 0
+  isHeadSetDeviceAngularAcceleration: 0
+  isHeadSetLeftEyePosition: 1
+  isHeadSetLeftEyeRotation: 1
+  isHeadSetLeftEyeVelocity: 0
+  isHeadSetLeftEyeAngularVelocity: 0
+  isHeadSetLeftEyeAcceleration: 0
+  isHeadSetLeftEyeAngularAcceleration: 0
+  isHeadSetRightEyePosition: 0
+  isHeadSetRightEyeRotation: 0
+  isHeadSetRightEyeVelocity: 0
+  isHeadSetRightEyeAngularVelocity: 0
+  isHeadSetRightEyeAcceleration: 0
+  isHeadSetRightEyeAngularAcceleration: 0
+  isHeadSetCenterEyePosition: 0
+  isHeadSetCenterEyeRotation: 0
+  isHeadSetCenterEyeVelocity: 0
+  isHeadSetCenterEyeAngularVelocity: 0
+  isHeadSetCenterEyeAcceleration: 0
+  isHeadSetCenterEyeAngularAcceleration: 0
+  isHeadSetBatterieLevel: 0
+  isHeadSetColorCameraAcceleration: 0
+  isHeadSetColorCameraAngularAcceleration: 0
+  isHeadSetColorCameraAngularVelocity: 0
+  isHeadSetColorCameraPosition: 0
+  isHeadSetColorCameraRotation: 0
+  isHeadSetColorCameraVelocity: 0
+  isHeadSetFixationPoint: 1
+  isHeadSetLeftEyeOpenAmount: 0
+  isHeadSetRightEyeOpenAmount: 0
