@@ -82,7 +82,7 @@ Follow these steps when running the application for the first time:
     You can also do this through **Window** > **TextMesh Pro** > **Import TMP
     Essential Resources**.
 5.  For Oculus, make sure "Oculus" is checked in **Project Settings** > **XR Plug-In Management** > **Android**
-    Also, make sure to add the value "OCULUS_SUPPORTED" in **Project Settings** > **Player** > **Android** > **Other Settings** > **Scripting Define Symbols** > **Android**
+    Also, make sure to add the value "OCULUS_SUPPORTED" in **Project Settings** > **Player** > **Android** > **Other Settings** > **Scripting Define Symbols**
 6.  Finally, make sure the passthrough with link cable is enabled in the Oculus App.
 1.  Press **Play**.
 
